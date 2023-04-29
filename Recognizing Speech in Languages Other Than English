@@ -1,0 +1,20 @@
+To recognize speech in a different language, set the language keyword argument of the recognize_*() method to a string corresponding to the desired language. Most of the methods accept a BCP-47 language tag, such as 'en-US' for American English, or 'fr-FR' for French. For example, the following recognizes French speech in an audio file:
+
+import speech_recognition as sr
+
+r = sr.Recognizer()
+
+with sr.AudioFile('path/to/audiofile.wav') as source:
+    audio = r.record(source)
+
+r.recognize_google(audio, language='fr-FR')
+Only the following methods accept a language keyword argument:
+
+recognize_bing()
+recognize_google()
+recognize_google_cloud()
+recognize_ibm()
+recognize_sphinx()
+To find out which language tags are supported by the API use
+
+ 
