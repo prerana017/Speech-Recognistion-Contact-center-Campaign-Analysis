@@ -1,0 +1,26 @@
+Speech data offer customer insights that simply aren’t available from other sources, helping to identify the causes of customer dissatisfaction and revealing opportunities to improve compliance, operational efficiency, and agent performance.
+
+The results include cost savings of between 20 and 30 percent, customer-satisfaction-score improvements of 10 percent or more, and stronger sales as well.
+
+Post-call speech analytics tools are prescriptive in nature and are useful for quality management and assurance. Customer support managers and contact center agents need to see key metrics in the aggregate, like common queries and agent performance.
+
+Real time speech analytics is a process of monitoring and analyzing recorded or live speech in order to glean actionable insights. The process can be used to track customer sentiment, uncover areas of improvement for customer service reps, or detect fraud and compliance issues.
+
+Python Speech Recognition Package
+A handful of packages for speech recognition exist on PyPI. A few of them include:
+apiai
+assemblyai
+google-cloud-speech
+pocketsphinx
+SpeechRecognition
+watson-developer-cloud
+wit
+
+
+There is one package that stands out in terms of ease-of-use: SpeechRecognition.
+
+Recognizing speech requires audio input, and SpeechRecognition makes retrieving this input really easy. 
+
+
+
+
